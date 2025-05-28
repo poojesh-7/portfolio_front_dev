@@ -1,0 +1,14 @@
+/* * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+body {
+  background-color: black;
+  margin: 0;
+  /* font-style: oblique; */
+  color: white;
+  font-family: "Crimson Text", serif;
+}

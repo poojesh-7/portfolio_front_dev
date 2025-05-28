@@ -1,0 +1,118 @@
+.bg {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.gb {
+  width: 100px;
+  border-radius: 0 10px 10px 0;
+  height: 100px;
+}
+
+.gb_spec {
+  border-radius: 10px 0 0 10px;
+}
+
+.grad_box1 {
+  margin-top: 150px;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+.grad_box2 {
+  margin-top: 50px;
+  transform: translateX(-20%);
+  transition: all 0.5s ease;
+}
+
+.shadow1 {
+  box-shadow: 0 0 8px 0 blue, 0 0 20px 0 blanchedalmond;
+}
+.shadow2 {
+  box-shadow: 0 0 8px 0 blue, 0 0 20px 0 blanchedalmond;
+}
+.shadow3 {
+  box-shadow: 0 0 8px 0 rgba(146, 252, 204, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow4 {
+  box-shadow: 0 0 8px 0 rgba(146, 252, 204, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow5 {
+  box-shadow: 0 0 8px 0 rgba(255, 99, 180, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow6 {
+  box-shadow: 0 0 8px 0 rgba(255, 99, 180, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow7 {
+  box-shadow: 0 0 8px 0 rgba(255, 164, 99, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow8 {
+  box-shadow: 0 0 8px 0 rgba(255, 164, 99, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow9 {
+  box-shadow: 0 0 8px 0 rgba(109, 255, 99, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.shadow10 {
+  box-shadow: 0 0 8px 0 rgba(109, 255, 99, 0.5), 0 0 20px 0 blanchedalmond;
+}
+.grad_box3 {
+  margin-top: 50px;
+  transform: translateX(-40%);
+  transition: all 0.5s ease;
+}
+.grad_box4 {
+  margin-top: 50px;
+  transform: translateX(-60%);
+  transition: all 0.5s ease;
+}
+.grad_box5 {
+  margin-top: 150px;
+  transform: translateX(60%);
+  transition: all 0.5s ease;
+}
+.grad_box6 {
+  margin-top: 50px;
+  transform: translateX(40%);
+  transition: all 0.5s ease;
+}
+.grad_box7 {
+  margin-top: 50px;
+  transform: translateX(20%);
+  transition: all 0.5s ease;
+}
+.grad_box8 {
+  margin-top: 50px;
+  transform: translateX(0%);
+  transition: all 0.5s ease;
+}
+
+.move-60 {
+  transform: translateX(-60%);
+}
+.move-40 {
+  transform: translateX(-40%);
+  transition: all 0.5s ease;
+}
+.move-20 {
+  transform: translateX(-20%);
+  transition: all 0.5s ease;
+}
+.move0 {
+  transform: translateX(0%);
+  transition: all 0.5s ease;
+}
+.move--60 {
+  transform: translateX(60%);
+}
+.move--40 {
+  transform: translateX(40%);
+  transition: all 0.5s ease;
+}
+.move--20 {
+  transform: translateX(20%);
+  transition: all 0.5s ease;
+}

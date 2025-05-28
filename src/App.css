@@ -1,0 +1,58 @@
+.square {
+  position: fixed;
+  border-radius: 2px;
+  z-index: 5;
+  bottom: 0;
+  /* top: 60px; */
+  /* right: 0px; */
+  width: 60px;
+  height: 60px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+
+  overflow: hidden;
+  /* transform: rotateZ(45deg); */
+}
+
+.secline {
+  position: absolute;
+  width: 500px;
+  height: 10px;
+  background-color: rgb(250, 53, 112);
+}
+
+.sec1-line {
+  left: -500px;
+}
+.sec2-line {
+  height: 9.2px;
+  top: -285px;
+  left: -194.8px;
+  transform: rotateZ(90deg);
+}
+.sec3-line {
+  height: 9px;
+  left: 135px;
+  bottom: 0;
+}
+.sec4-line {
+  height: 10px;
+  bottom: -358px;
+  left: -245px;
+  transform: rotateZ(90deg);
+}
+
+.small-square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: rgb(55, 187, 232);
+  z-index: 5;
+}
+
+.final-form {
+  height: 610px;
+  width: 100%;
+  background-color: #5476fa;
+}
